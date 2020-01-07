@@ -1,12 +1,3 @@
 How did you install stlink?
-If you do the following you should not need sudo to run the commands (so long as it is not run as root):
-
-git clone https://github.com/texane/stlink.git
-cd stlink/build
-cmake ..
-make && sudo make install
-Note that you may also need to update your udev rules if you have not already.
-stlink_udev_rule.tar.bz2
-sudo tar -xvf stlink_udev_rule.tar.bz2 -C /etc/udev/rules.d
-
+https://www.youtube.com/watch?v=5nr_3o7D1To
 
